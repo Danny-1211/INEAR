@@ -27,6 +27,8 @@
 }
 
 .custom {
+    background-color: #000000;
+
     @media(max-width: $sm) {
         background: linear-gradient(#000000, #2A2A2A, #000000, #012022, #000000, #000000);
     }
@@ -40,8 +42,9 @@
     .custom-pics {
         @media(max-width: $sm) {
             img {
+                width: 100%;
                 object-fit: cover;
-                width: 351px;
+                max-width: 351px;
                 height: 351px;
             }
         }
