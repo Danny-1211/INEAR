@@ -6,7 +6,7 @@ body {
 }
 
 .banner {
-    background-image: url("../../images/banner.png");
+    background-image: url("../images/banner.png");
     width: 100vw;
     max-width: 1920px;
     height: 100vh;
@@ -14,7 +14,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     @media(max-width: $sm) {
-        background-image: url("../../images/banner.png");
+        background-image: url("../images/banner.png");
         height: 100vh;
         max-height: 610px;
         background-position: 15% center;
