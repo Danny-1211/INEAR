@@ -1,0 +1,49 @@
+@use "_breakpoint.scss" as *;
+
+.banner {
+    background-image: url("../../images/banner.png");
+    width: 100vw;
+    max-width: 1920px;
+    height: 100vh;
+    max-height: 634px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @media(max-width: $sm) {
+        background-image: url("../../images/banner.png");
+        height: 100vh;
+        max-height: 610px;
+        background-position: 15% center;
+        background-repeat: no-repeat;
+    }
+}
+
+.new {
+    background-color: #2B2B2B;
+
+    @media(max-width: $sm) {
+        background: linear-gradient(#000000, #404040, #191919);
+    }
+}
+
+.custom {
+    @media(max-width: $sm) {
+        background: linear-gradient(#000000, #2A2A2A, #000000, #012022, #000000, #000000);
+    }
+
+    .custom-title {
+        @media(max-width: $sm) {
+            width: 351px;
+        }
+    }
+
+    .custom-pics {
+        @media(max-width: $sm) {
+            img {
+                object-fit: cover;
+                width: 351px;
+                height: 351px;
+            }
+        }
+    }
+}
