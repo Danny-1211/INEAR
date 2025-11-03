@@ -45,6 +45,48 @@
     -o-object-fit: cover;
        object-fit: cover;
     max-width: 351px;
-    height: 351px;
+    height: 100vh;
+    max-height: 351px;
+  }
+}
+
+.order .order-pics .pic1 img,
+.order .order-pics .pic2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 306px;
+  height: 306px;
+}
+@media (max-width: 640px) {
+  .order .order-pics .pic1 img,
+  .order .order-pics .pic2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 168px;
+    height: 168px;
+  }
+}
+.order .form .form-input input {
+  padding: 16px 12px;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+}
+.order .form .form-input input::-moz-placeholder {
+  color: #ACACAC;
+}
+.order .form .form-input input::placeholder {
+  color: #ACACAC;
+}
+@media (max-width: 640px) {
+  .order .form .form-input input {
+    padding: 16px 12px;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+  }
+  .order .form .form-input input::-moz-placeholder {
+    color: #ffffff;
+  }
+  .order .form .form-input input::placeholder {
+    color: #ffffff;
   }
 }/*# sourceMappingURL=index.css.map */
