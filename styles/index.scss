@@ -4,7 +4,9 @@ body {
     box-sizing: border-box;
 
 }
-
+.btn:hover{
+    border-bottom: 1px solid #000000;
+}
 .banner {
     background-image: url("../images/banner.png");
     width: 100vw;
@@ -12,7 +14,7 @@ body {
     height: 100vh;
     max-height: 634px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
     @media(max-width: $sm) {
         background-image: url("../images/banner.png");
         height: 100vh;
