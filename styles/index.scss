@@ -1,5 +1,10 @@
 @use "_breakpoint.scss" as *;
 
+body {
+    box-sizing: border-box;
+
+}
+
 .banner {
     background-image: url("../../images/banner.png");
     width: 100vw;
@@ -8,7 +13,6 @@
     max-height: 634px;
     background-position: center;
     background-repeat: no-repeat;
-
     @media(max-width: $sm) {
         background-image: url("../../images/banner.png");
         height: 100vh;

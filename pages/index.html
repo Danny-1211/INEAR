@@ -16,7 +16,8 @@
 
 <body>
     <div class="box w-full w-[100vw] lg:m-w-[1920px]">
-        <header class="w-full flex justify-between items-center px-[8px] py-[16px] lg:w-[100vw] lg:m-w-[1920px]">
+        <header
+            class="w-full flex justify-between items-center px-[8px] py-[16px] lg:w-[100vw] lg:m-w-[1920px] lg:px-[80px] lg:py-[16px] ">
             <div class="header-logo">
                 <img src="../images//Logo.svg" alt="logo">
             </div>
@@ -31,9 +32,9 @@
                 <img class="lg:hidden" src="../images/menu.svg" alt="menu">
             </div>
         </header>
-        <main class="w-full flex flex-col justify-center items-center">
+        <main class="w-full flex flex-col justify-center items-center  lg:w-[100vw] lg:m-w-[1920px] lg:bg-[#000000]">
             <div
-                class="banner w-full flex flex-col justify-end items-center px-[8px] py-[48px] lg:flex-row-reverse lg:justify-start">
+                class="banner  w-full flex flex-col justify-end items-center px-[8px] py-[48px] lg:flex-row-reverse lg:justify-start">
                 <div
                     class="banner-title flex flex-col gap-[16px]  px-[8px] py-[16px] lg:w-[636px] lg:h-[139px] lg:mb-[0px] lg:mr-[70px]">
                     <h1 class="text-[#FFFFFF] leading-[120%] font-medium text-[Noto Sans TC] text-[40px]">INEAR PRO MAX
@@ -135,7 +136,8 @@
                         <p class="text-[#FFFFFF] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]">
                             請於下方留下您的詳細資料與訂製需求，將有專人於 3 日內聯繫，此表單僅做為客服調查，不等同於完成訂製商品。</p>
                     </div>
-                    <div class="form-input w-full flex flex-col gap-[24px] justify-center items-center lg:justify-end lg:items-end">
+                    <div
+                        class="form-input w-full flex flex-col gap-[24px] justify-center items-center lg:justify-end lg:items-end">
                         <div class="input-item w-full flex flex-col justify-start items-start gap-[4px]">
                             <p
                                 class=" hidden lg:block text-[#FFFFFF] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]">
@@ -185,7 +187,7 @@
                         </div>
 
                         <div
-                            class="form-btn  w-full bg-[#FFFFFF] rounded-sm py-[12px] py-[16px] justify-center items-center text-center lg:max-w-[88px] lg:justify-end lg:items-end">
+                            class="form-btn  w-full bg-[#FFFFFF] rounded-sm py-[12px] py-[16px] justify-center items-center text-center lg:w-[88px] lg:justify-end lg:items-end">
                             <button class="text-[#000000] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]"
                                 type="submit">送出表單</button>
                         </div>
@@ -193,6 +195,39 @@
                 </div>
             </div>
         </main>
+        <footer class="w-full bg-[#000000] flex flex-col justify-start items-start py-[60px] px-[12px] gap-[24px] lg:w-[100vw] lg:m-w-[1920px]
+        lg:justify-center lg:items-center lg:px-[60px]">
+            <div class="footer-logo">
+                <img class="w-[100%] m-w-[166px]" src="../images/Logo_dark.svg" alt="logo_dark">
+            </div>
+            <div
+                class="footer-content w-full flex flex-col justify-start items-start gap-[24px] lg:justify-between lg:items-center  lg:w-[100vw] lg:m-w-[1296px]">
+                <div class=" social flex justify-between items-center gap-[40px] ">
+                    <img src="../images/twitter.svg" alt="twitter">
+                    <img src="../images/Instagram.svg" alt="instagram">
+                    <img src="../images/Facebook.svg" alt="facebook">
+                </div>
+                <div class="divider hidden lg:flex w-[1296px] h-[96px]  p-[48px] flex justify-center items-center">
+                    <div class="line w-[100px] border border-[#FFFFFF]"></div>
+                </div>
+                <div
+                    class="other w-full flex flex-col justify-start items-start gap-[40px] lg:flex-row lg:justify-between lg:flex-row">
+                    <div class="links flex justify-between items-start gap-[24px] ">
+                        <a class="text-[#FFFFFF] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]"
+                            href="#">最新商品</a>
+                        <a class="text-[#FFFFFF] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]"
+                            href="#">多色選擇</a>
+                        <a class="text-[#FFFFFF] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]"
+                            href="#">定製耳機</a>
+                    </div>
+                    <div class="copyright">
+                        <p class="text-[#FFFFFF] leading-[150%] font-normal text-[Noto Sans TC] text-[16px]">© WEBNAME
+                            2024
+                            All right Reserved</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
     </div>
 </body>
 
